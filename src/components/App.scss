@@ -1,0 +1,85 @@
+$primary-color:#FAF6E5;
+$secondery-color:#F6E5DF;
+$tertiary-color:#FFBC00;
+$head-color:#382E37;
+$main-bg:#FBFEFE;
+$main-border-color:#F7FEFE;
+#pop-up {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
+}
+body{
+  display: flex;
+  justify-content: center;
+
+}
+.add-edit-recipe-button{
+  // margin-left: 40px;
+  background: $tertiary-color;
+  border-style: hidden;
+  border-radius: 2px;
+  color: #fff;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+
+}
+.container{
+  width: 100%;
+  max-width:400px;
+  min-width: 200px;
+  padding: 0px;
+  display:inline-flex;
+  background: $main-bg;
+  border: solid $main-border-color;
+  flex-direction: column;
+  flex-grow: 1;
+
+
+  .recipe-heading{
+    max-width: 900px;
+    background: $head-color;
+    color: #fff;
+    border-radius: 4px 4px 0 0 ;
+    height: 40px;
+    text-align: center;
+    font-size: 2em;
+    font-family:sans-serif;
+
+
+  }
+}
+@media screen and (min-width: 401px) {
+  .container{
+    width: 100%;
+    max-width:700px;
+    min-width: 401px;
+}
+
+
+}
+@media screen and (min-width: 701px) {
+  .container{
+    width: 100%;
+    max-width:800px;
+    min-width: 700px;
+}
+
+
+}
+@media screen and (min-width: 801px) {
+  .container{
+    width: 100%;
+    max-width:900px;
+    min-width: 800px;
+}
+
+
+}

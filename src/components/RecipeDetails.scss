@@ -1,0 +1,51 @@
+@import "./App.scss";
+
+body{
+  // background: #ddd;
+}
+input[type=radio]:checked + div{
+  display: block;
+}
+.ingredients-list{
+  display:none;
+}
+li{
+  list-style:none;
+}
+
+.recipe-delete{
+  color: #fff;
+  background: #ee2222;
+  border-radius: 2px;
+  border-style: hidden;
+  height: 25px;
+  width: 70px;
+}
+
+.recipe-edit{
+  color: #fff;
+  background: $tertiary-color;
+  border-radius: 2px;
+  border-style:hidden;
+  // border-color: $primary-color;
+  height: 25px;
+  width: 70px;
+}
+.recipe-radio{
+  display: none;
+}
+.recipe-item{
+  width: 100%;
+  background: $primary-color;
+  min-height: 40px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+  color:#556565;
+}
+.recipe-detailst-container{
+  padding: 10px;
+}
+.recipe-item:nth-child(odd) { background: $secondery-color; }
+// .rci{
+//   display: none;
+// }
