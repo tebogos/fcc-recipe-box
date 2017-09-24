@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "Free Code Camp Recipe Box",
   "main": "index.js",
+    "Homepage": "http://tebogos.github.io/fcc-recipe-box",
   "scripts": {
     "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot",
-    "build:prod": "webpack -p"
+    "build:prod": "webpack -p",
+"predeplay": "npm run build:prod",
+"deploy": "gh-pages -d dist"
   },
   "keywords": [
     "FCC",
