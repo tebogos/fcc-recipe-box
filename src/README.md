@@ -7,4 +7,4 @@ The recipe edited or deleted from the list.
 A coma separated ingredients will be displayed as a list.
 The list of recipes is stored on the browsers local Storage.
 
-(Please click this link to view the demo)[https://tebogos.github.io/fcc-recipe-box/ "FCC recipe  box project"]
+[Please click this link to view the demo...](https://tebogos.github.io/fcc-recipe-box/ "FCC recipe  box project")
